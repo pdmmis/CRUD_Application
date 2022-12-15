@@ -1,0 +1,24 @@
+{% extends "app/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="regform">
+    <h1> Registration form</h1>
+</div>
+<form>
+    <div class="main">
+
+        <div id="name">
+            <h2 class="name">Name</h2>
+            <input class="firstname" type="tel" maxlength="10" name="Phone"><br>
+            <label class="firstlable">Phone number</label>
+            <input class="lastname" type="password" name="Password">
+            <label class="lastlable">Password </label>
+            <button type="submit">Login</button>
+        </div>
+    </div>
+</form>
+
+{% endblock content %}
